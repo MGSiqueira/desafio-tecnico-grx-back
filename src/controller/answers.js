@@ -4,7 +4,7 @@ const getAnswers = async (_req, res) => {
   try {
     const answersList = service.getAnswers();
     if (answersList !== false) return res.status(200).json(answersList);
-    return res.status(204).end();
+    return res.status(204).json({ message: 'Nada aqui por enquanto' });
   } catch (err) {
     console.error(err.message);
     return res.status(500).end();
