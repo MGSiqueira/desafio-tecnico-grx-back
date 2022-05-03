@@ -18,5 +18,6 @@ const addAnswer = (answer) => {
 };
 
 module.exports = {
-  addAnswer,
+  getAnswers,
+  addAnswer
 };
