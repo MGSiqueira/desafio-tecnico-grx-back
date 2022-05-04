@@ -1,4 +1,4 @@
-const model = require('../model/answer');
+const model = require('../model/answers');
 
 const getAnswers = () => {
   return model.getAnswers();

@@ -12,7 +12,7 @@ const addAnswer = (answer) => {
   const json = getAnswers();
 
   const fullObj = json ? [...json, newObj] : [newObj];
-  console.log(fullObj);
+
   const stringifiedAnswer = JSON.stringify(fullObj);
   fs.writeFileSync('answers.json', stringifiedAnswer)
 };
