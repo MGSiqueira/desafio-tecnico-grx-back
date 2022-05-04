@@ -2,6 +2,8 @@
 
 ### API para receber requisições GET e POST, armazenando dados em um arquivo JSON
 
+### [Frontend do proejto](https://github.com/MGSiqueira/desafio-tecnico-grx-front)
+
 ---
 
 #### Para rodar localmente após clonar: rodar os comandos `npm install` e `npm start`
